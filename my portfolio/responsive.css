@@ -1,0 +1,391 @@
+@media only screen and (max-width:600px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    .closeburger{
+        
+        cursor: pointer;
+        display: none;
+        top: 3%;
+        left: 90%;
+    }
+    .hamburger{
+        cursor: pointer;
+        display:block;
+        top: 2%;
+        left: 89%;
+        
+    }
+    
+    .humburgeroption{
+        position: fixed;
+        display: none;
+        height: 100vh;
+        width: 60%;
+        z-index: 10;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        background-color: rgb(255, 255, 255);
+    }
+    .humburgeroption a{
+        /* padding: 60px 20% 0px 30%; */
+        font-size: 25px;
+        text-decoration: none;
+        z-index: 10;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        background-color: rgb(255, 255, 255);
+
+    }
+    
+   
+    .humburgeroption h1{
+        /* background-color: aquamarine; */
+        padding: 60px 20% 0px 30%;
+    }
+    .hamburger img{
+        width: 30px;
+        height: 30px;
+    }
+    
+ .container{
+    height: 107vh;
+ }                                               
+.nav{
+   min-width: 0vw;
+}
+.option{
+    /* position: absolute; */
+    display: none;
+}
+.hll{
+    font-size: 5vmin;
+}
+.id{
+    width: 12vw;
+    height: 6.5vh;
+}
+.id-image{
+    width: 12vw;
+    height: 6.5vh;
+}
+.home-right{
+    margin-top: 60px;
+    height: 105vh;
+}
+.photo-box{
+    margin-left: 23vw;
+}
+.cv{
+    font-size: 3vmin;
+    width: 35vw;
+    height: 3.8vh;
+}
+.home{
+    display: block;
+     height: 50vh;
+}
+.home-left{
+    width: 91vw;
+    height: 26vh;
+}
+.container-about{
+    height: 60vh;
+    width: 110%;
+  
+}
+.text-about-right{
+    padding: 0%;
+}
+.text-about-right h3{
+    font-size: 6vmin;
+}
+.about-p{
+    font-size: 4vmin;
+}
+.text-about-right h1{
+    font-size: 8vmin;
+}
+.about{
+    display: block;
+}
+.about-right{
+    margin-left: 10vw;
+    width: 80vw;
+}
+.about-left{
+    display: none;
+}
+/* .container-skill{
+    display: block;
+    height: 132vh;
+} */
+.container-skill {
+    display: block;
+    height: 137vh;
+    width: 110%;
+}
+.skill{
+    /* text-align: center; */
+    width: 100vw;
+}
+.ms h1{font-size: 6vmin;
+    margin-top: 0vh;
+}
+.skill-box{
+    display: block;
+
+}
+.skill-box-left{
+    width: 90vw;
+    height: 70vh;
+}
+.tbox{
+    width: 83vw;
+}
+.techbox h3{
+    font-size: 4vmin;
+}
+.line-80 h1{
+    font-size: 3vmin;
+}
+.techbox{
+    padding-bottom: 3vh;
+    margin: 0;
+}
+.skill-box-right{
+    width: 100vw;
+    height: 58vh;
+}
+.skill-box-right h2{
+    font-size: 6.2vmin;
+}
+.per-box{ 
+    padding-left: 5vw;
+    justify-content:left;
+    gap: 1vh;
+    width: 80vw;
+    height: 40vh;
+    /* display: block; */
+}
+.creativity{
+    margin-bottom: 7vh;
+    width: 34vmin;
+}
+.creativity h2{
+    font-size: 3vmin;
+}
+.project-heading{
+    height: 5vh;
+    text-align: center;
+    display: block;
+}
+.port{
+    /* display: block; */
+     
+}
+.row{
+    margin-bottom: 20px;
+}
+.project-container {
+    height: 100%;
+    width: 110%;
+    
+}
+.portfolio-content{
+    /* height: 160vh; */
+    display: block;
+}
+.contact-me {
+    height: 150vh;
+    display: block;
+    width: 110%;
+}
+.contact-left{
+    padding-left: 12vw;
+    height: 50vh;
+    width: 80%;
+}
+.heading h1{
+    font-size: 5vmin;
+    margin-bottom: 0vh;
+}
+.contact-right {
+    /* padding-right: 10vw; */
+    /* padding-top: 3vmin; */
+    width: 90%;
+    height: 56vh;
+}
+.para-text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4vmin;
+}
+.contact-form{
+    padding-left: 10vw;
+}
+
+.skill-box-left h2 {
+    font-size: 4vmin;
+   position: relative;
+   left: 8%;
+}
+.techbox img {
+    border-radius: 5px;
+    width: 5vmin;
+    height: 5vmin;
+}
+.aa6{
+    margin-left: 13vw;
+    width: 12vmin;
+    height: 9vmin;
+    display: block;
+}
+.permanent img{
+    position: fixed;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+
+}
+.permanent{
+    
+    z-index: 10;
+    position: absolute;
+    left: 80%;
+    top: 87%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.service .service-item .service-item-inner {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 90%;
+    padding: 20px 10px;
+    
+     
+  }
+  .service .service-item .service-item-inner .icon {
+    height: 50px;
+    width: 50px;
+  }
+  .service .service-item .service-item-inner .icon .fa {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .service .service-item .service-item-inner h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .service .service-item .service-item-inner p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin-left: -60px;
+  }
+  .row1 {
+    flex-direction: column;
+    padding: 1.5rem 1rem 2rem;
+    
+     
+    
+  }
+  .container1 {
+    height: 100%;
+   
+     
+  }
+}
+/* Media Query for screens up to 991px (e.g., tablets) */
+@media (max-width: 991px) {
+    body {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center;
+    }
+
+    .navbar .nav {
+        gap: 15px; /* Reduce spacing between navigation links */
+    }
+
+    .container {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .hero {
+        text-align: center; /* Center align text */
+        padding: 20px;
+    }
+
+    .section {
+        margin: 20px 0; /* Add spacing between sections */
+    }
+
+    .services .service-box {
+        flex-direction: column; /* Stack service boxes vertically */
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center; /* Center align footer content */
+        padding: 15px;
+    }
+}
+
+/* Media Query for screens up to 767px (e.g., mobile devices) */
+@media (max-width: 767px) {
+    body {
+        font-size: 12px; /* Further adjust font size for smaller screens */
+    }
+
+    .navbar {
+        display: none; /* Hide the navbar or use a toggle menu */
+    }
+
+    .hamburger-menu {
+        display: block; /* Show hamburger menu */
+    }
+
+    .hero {
+        font-size: 18px; /* Adjust hero text size */
+        padding: 10px;
+    }
+
+    .services .service-box {
+        padding: 10px; /* Reduce padding for service boxes */
+    }
+
+    .footer {
+        font-size: 10px; /* Adjust footer font size */
+    }
+
+    .button {
+        width: 100%; /* Buttons take full width */
+        padding: 10px;
+    }
+}
+
+
+/* @media (max-width: 991px) { */
+    /* .contact .contact-info-item .portfolio, */
+    /* .portfolio-item .service .service-item { */
+      /* flex: 0 0 50%; */
+      /* max-width: 50%; */
+    /* } */
+    /* .home .home-info { */
+      /* flex: 0 0 100%; */
+      /* max-width: 100%; */
+    /* } */
+    /* .home .home-img { */
+      /* display: none; */
+    /* } */
+  /* } */
+/*  */

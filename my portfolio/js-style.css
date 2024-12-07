@@ -1,0 +1,145 @@
+
+.text-show-hide{
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+.text-show{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 1s;
+}
+
+.hide{
+    opacity: 0%;
+    transform: translateX(-50%);
+    transition: all 1.5s;
+}
+.show{
+    opacity: 70%;
+    transform: translateX(0%);
+    transition: all 1.5s;
+}
+
+.about-hide{
+    opacity: 0%;
+    transform: translateY(-50%);
+    transition: all 1.5s;
+}
+
+.about-show{
+    opacity: 70%;
+    transform: translateX(0%);
+    transition: all 1.5s;
+}
+.line-hide{
+    opacity: 0%;
+    transform: translateX(-30%);
+    transition: all 1s;
+}
+
+.line-show{
+    opacity: 90%;
+    transform: translateX(0%);
+    transition: all 1s;
+} 
+.round-hide{
+    opacity: 0%;
+    /* border-top:black ;
+    border-left:black;
+    border-bottom:black;
+    border-right: black; */
+    transform: translateY(100%);
+    transition: all 2s;
+}
+
+.round-show{
+    opacity: 90%;
+    /* border-top:black ;
+    border-left:#0ef;
+    border-bottom:#0ef;
+    border-right:#0ef; */
+    transform: translateX(0%);
+    transition: all 2s;
+}
+.photo1-hide{
+    opacity: 0%;
+    transform: translateY(50%);
+    transition: all 3s;
+}
+
+.photo1-show{
+    opacity: 90%;
+    transform: translateX(0%);
+    transition: all 3s;
+}
+
+
+
+.photo2-hide{
+    opacity: 0%;
+    transition: all 3s;
+}
+
+.photo3-hide{
+    
+    opacity: 0%;
+    transform: translateY(-50%);
+    transition: all 3s;
+}
+
+.photo3-show{
+    opacity: 90%;
+    transform: translateX(0%);
+    transition: all 3s;
+}
+.photo2-show{
+    opacity: 90%;
+    transition: all 3s;
+}
+
+.round-hide{
+    opacity: 0%;
+    /* border-top:black ;
+    border-left:black;
+    border-bottom:black;
+    border-right: black; */
+    transform: translateY(50%);
+    transition: all 2s;
+}
+
+.round-show{
+    opacity: 90%;
+    /* border-top:black ;
+    border-left:#0ef;
+    border-bottom:#0ef;
+    border-right:#0ef; */
+    transform: translateY(0%);
+    transition: all 2s;
+}
+
+.contact-hide{
+    opacity: 0%;
+    /* border-top:black ;
+    border-left:black;
+    border-bottom:black;
+    border-right: black; */
+    transform: translateY(-50%);
+    transition: all 2s;
+}
+
+.contact-show{
+    opacity: 90%;
+    /* border-top:black ;
+    border-left:#0ef;
+    border-bottom:#0ef;
+    border-right:#0ef; */
+    transform: translateY(0%);
+    transition: all 2s;
+}
+
+.hum-page{
+    opacity: 1;
+    transform: translateX(-20%);
+    transition: all 3s;
+}
